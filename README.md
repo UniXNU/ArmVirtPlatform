@@ -1,5 +1,7 @@
 # ArmVirtPlatform
 
-ARM virtual platform for QEMU.
+ARM virtual platform for QEMU. Publishes the QEMU virt machine and its device nubs.
 
-Maintained as an independent module and included by [UniXNU](https://github.com/UniXNU/UniXNU) at `drivers/ArmVirtPlatform`.
+Current state: used by the offline QEMU kernel and GPU instruments.
+
+Linked into XNU by `unixnu build kernel`.
